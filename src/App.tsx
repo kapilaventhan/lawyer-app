@@ -258,14 +258,14 @@ export default function App() {
             })}
 
             {/* Download Codebase Mobile Trigger */}
-            <button
+            {/* <button
               onClick={handleDownloadCodebase}
               disabled={isDownloadingCode}
               className="w-full flex md:hidden items-center gap-3 px-3.5 py-2.5 mt-4 text-xs font-bold text-slate-100 bg-blue-600 hover:bg-blue-500 rounded-xl tracking-wide transition-all cursor-pointer shadow-md"
             >
               <Download className={`h-4.5 w-4.5 ${isDownloadingCode ? "animate-bounce" : ""}`} />
               {isDownloadingCode ? "Bundling ZIP..." : "Download Code ZIP"}
-            </button>
+            </button> */}
           </nav>
         </div>
 
